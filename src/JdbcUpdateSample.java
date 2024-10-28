@@ -26,6 +26,9 @@ public class JdbcUpdateSample {
 
 		} catch (SQLException e) {
 			e.printStackTrace();
+			//エラーした内容を表示
+			//try catch文なかったらjavaが勝手に表示してくれるけど
+			//try catch文あるならエラー起こった場合の表示は自分で書かないとダメ
 		}
 
 	}
